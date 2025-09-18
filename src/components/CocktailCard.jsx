@@ -2,6 +2,9 @@ import { Link } from "react-router-dom";
 import Wrapper from "../assets/wrappers/CocktailCard";
 
 const CocktailCard = ({ name, image, info, id, glass }) => {
+  // const data = useOutletContext();
+  // console.log(data);
+
   return (
     <Wrapper>
       <div className="img-container">
